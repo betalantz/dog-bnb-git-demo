@@ -1,5 +1,3 @@
-console.log("DOM loaded")
-
 function renderHi() {
     const h1 = document.createElement("h1");
     h1.textContent = "HI!"
@@ -8,3 +6,5 @@ function renderHi() {
 }
 
 renderHi()
+
+const noConflict = true
